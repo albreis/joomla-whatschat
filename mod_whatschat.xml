@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+	<name>WhatsChat</name>
+	<author>WebProdutora</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>dev@webproutora.com.br</authorEmail>
+	<authorUrl>www.webprodutora.com.br</authorUrl>
+	<version>1.2.0</version>
+	<description>Chat com whatsapp</description>
+	<files>
+		<filename>mod_whatschat.xml</filename>
+		<filename module="mod_whatschat">mod_whatschat.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>helper.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="texto_cabecalho" type="text" label="Texto cabeçalho"	description="Texto cabeçalho" />
+				<field name="texto_botao" type="text" label="Texto botão"	description="Texto botão" />
+				<field name="contatos"
+				type="repeatable"
+				icon="list"
+				description="Contatos"
+				label="Contatos"
+				default=''>
+					<field name="foto" type="media" label="Foto"	description="Foto" />
+					<field name="nome" type="text" label="Nome"	description="Nome" />
+					<field name="departamento" type="text" label="Departamento"	description="Departamento" />
+					<field name="telefone" type="text" label="Telefone"	description="Telefone" />
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+					rows="3"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC"
+					default="1"
+					filter="integer"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="number"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+					default="900"
+					filter="integer"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="itemid"
+					>
+					<option value="itemid"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
