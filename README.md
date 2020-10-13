@@ -7,7 +7,7 @@ Módulo de chat para whatsapp com suporte para multiplos contatos e departamento
 ## Administrator
 ![Screenshot](./screenshot2.png)
 
-![Screenshot](./screenshot3.png?v2)
+![Screenshot](./screenshot4.png)
 
 ## Instalação
 
