@@ -22,12 +22,12 @@ defined('_JEXEC') or die;
 						<?php foreach($contatos->foto as $key => $foto): ?>
 						<a href="<?php echo $contatos->telefone[$key]; ?>" class="contact" style="cursor:pointer;color:#1f1f1f;border-top:2px solid #dfdfdf;display:flex;align-items:center;text-decoration:none;" target="_bblank">
 								<?php if($foto): ?>
-								<div class="left" style="width:60px;margin:15px;">
+								<div class="left" style="width:60px;margin:15px 0 15px 15px;">
 										<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAQAAAC0NkA6AAAALElEQVR42u3NMQEAAAwCoNm/9DL4eEEBcgORSCQSiUQikUgkEolEIpFIJJ0HCt8AM0IRFnUAAAAASUVORK5CYII=" 
 												style="border-radius:50px;width:100%;height:auto;background-size:cover;background-repeat:no-repeat;background-position:center;background-image:url('<?php echo JUri::base() . $foto; ?>')" />
 								</div>
 								<?php endif; ?>
-								<div class="right" style="text-align:left;">
+								<div class="right" style="text-align:left;margin-left:15px;">
 										<?php if($contatos->departamento[$key]): ?>
 										<div class="departament">
 												<?php echo $contatos->departamento[$key]; ?>
