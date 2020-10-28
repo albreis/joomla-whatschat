@@ -2,7 +2,7 @@
 Módulo de chat para whatsapp com suporte para multiplos contatos e departamentos.
 
 ## Instalação
-Vídeo: https://www.youtube.com/watch?v=zuvPo06nQqo
+Vídeo: https://youtu.be/3CwchZscwEM
 
 ## Site
 ![Screenshot](./screenshot.png)
