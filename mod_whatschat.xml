@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>dev@webproutora.com.br</authorEmail>
 	<authorUrl>www.webprodutora.com.br</authorUrl>
-	<version>1.2.0</version>
+	<version>1.3.0</version>
 	<description>Chat com whatsapp</description>
 	<files>
 		<filename>mod_whatschat.xml</filename>
