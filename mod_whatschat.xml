@@ -29,7 +29,7 @@
 					<field name="foto" type="media" label="Foto"	description="Foto" />
 					<field name="nome" type="text" label="Nome"	description="Nome" />
 					<field name="departamento" type="text" label="Departamento"	description="Departamento" />
-					<field name="telefone" type="text" label="Telefone"	description="Telefone" />
+					<field name="telefone" type="text" label="Link"	description="Exemplo: whatsapp://+550000000000 ou https://wa.me/550000000000" />
 				</field>
 			</fieldset>
 			<fieldset name="advanced">
