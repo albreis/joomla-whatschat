@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
 		<div class="wc-inner" style="display:none;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.4);">
 				<div class="header" style="text-align:left;position:relative;background:#0DC153;color:#fff;padding:15px 30px 15px 15px;border-top-left-radius:10px;border-top-right-radius:10px;">
 						<?php echo $params->get('texto_cabecalho'); ?>
-						<span class="fa fa-close" onclick="jQuery('.wc-inner').hide();" style="cursor:pointer;position:absolute;top:15px;right:15px;"></span>
+						<span onclick="jQuery('.wc-inner').hide();" style="cursor:pointer;position:absolute;top:15px;right:15px;"><svg xmlns="http://www.w3.org/2000/svg" style="width:16px" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill="#fff" d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg></span>
 				</div>
 				<div class="contacts" style="display:block;background:#fff;border-bottom-left-radius:10px;border-bottom-right-radius:10px;">
 						<?php $contatos = $params->get('contatos'); ?>
