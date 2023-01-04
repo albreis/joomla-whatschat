@@ -21,15 +21,21 @@
 				<field name="texto_cabecalho" type="text" label="Texto cabeçalho"	description="Texto cabeçalho" />
 				<field name="texto_botao" type="text" label="Texto botão"	description="Texto botão" />
 				<field name="contatos"
-				type="repeatable"
+				type="subform"
 				icon="list"
 				description="Contatos"
 				label="Contatos"
+				id="contatos"
+				multiple="true"
+				min="1"
+				max="10"
 				default=''>
-					<field name="foto" type="media" label="Foto"	description="Foto" />
-					<field name="nome" type="text" label="Nome"	description="Nome" />
-					<field name="departamento" type="text" label="Departamento"	description="Departamento" />
-					<field name="telefone" type="text" label="Link"	description="Exemplo: whatsapp://+550000000000 ou https://wa.me/550000000000" />
+					<form>
+						<field name="foto" type="media" label="Foto"	description="Foto" />
+						<field name="nome" type="text" label="Nome"	description="Nome" />
+						<field name="departamento" type="text" label="Departamento"	description="Departamento" />
+						<field name="telefone" type="text" label="Link"	description="Exemplo: whatsapp://+550000000000 ou https://wa.me/550000000000" />
+					</form>
 				</field>
 			</fieldset>
 			<fieldset name="advanced">
