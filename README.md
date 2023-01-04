@@ -22,7 +22,7 @@ Baixe os arquivos zipados e instale usando o instalador do Joomla.
 
 ## Versão para Joomla 4
 
-[Baixar versão 2.0.1](https://github.com/albreis/joomla-whatschat/releases/tag/2.0.1)
+[Baixar versão 2.1.0](https://github.com/albreis/joomla-whatschat/releases/tag/2.1.0)
 
 
 ### Suporte
