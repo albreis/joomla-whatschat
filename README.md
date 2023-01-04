@@ -27,5 +27,6 @@ Baixe os arquivos zipados e instale usando o instalador do Joomla.
 
 ### Suporte
 
-WhatsApp: [+55 (51) 9. 8110-8038](https://wa.me/5551981108038) 
-(Everaldo Programador)
+ER Soluções Web LTDA
+WhatsApp: [+55 19 9.8434-8618](https://wa.me/5519984348618) 
+https://ersolucoesweb.com.br
