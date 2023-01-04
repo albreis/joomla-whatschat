@@ -25,8 +25,10 @@ Baixe os arquivos zipados e instale usando o instalador do Joomla.
 [Baixar versão 2.1.0](https://github.com/albreis/joomla-whatschat/releases/tag/2.1.0)
 
 
-### Suporte
+## Suporte
 
 ER Soluções Web LTDA
+
 WhatsApp: [+55 19 9.8434-8618](https://wa.me/5519984348618) 
+
 https://ersolucoesweb.com.br
